@@ -1,6 +1,8 @@
 import React, {useState, useRef}from 'react';
 import HeaderMain from './components/HeaderMain';
 import Table from './components/Table';
+import Dummy from './components/Dummy';
+import TrialTable from './components/TrialTable';
 
 
 
@@ -11,6 +13,10 @@ const App = () => {
     <div className='h-full justify-center flex'>
       <Table />
     </div>
+    {/* <FakeTable /> */}
+    {/* <NewTable /> */}
+    {/* <Dummy /> */}
+    {/* <TrialTable /> */}
     </div>
   )
 }

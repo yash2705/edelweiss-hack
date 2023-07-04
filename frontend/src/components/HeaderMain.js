@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const HeaderMain = () => {
   return (
     <div>
         <div className='text-lg text-purple-800 font-medium'>Option Chain (Equity Derivatives)</div>
-        <div className='md:flex md:justify-between lg:w-1/2 w-full'>
+        {/* <div className='md:flex md:justify-between lg:w-1/2 w-full'>
             <div>
                 <div>View option contracts for : </div>
                 <div>
@@ -34,7 +34,7 @@ const HeaderMain = () => {
                             <option value="opel">Opel</option>
                             <option value="audi">Audi</option>
                 </select></div>
-        </div>
+        </div> */}
     </div>
   )
 }
