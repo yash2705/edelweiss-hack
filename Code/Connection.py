@@ -156,7 +156,7 @@ def calculate_implied_volatility(option_price, underlying_price, strike_price, r
 
 
 HOST = '127.0.0.1'  # Update with the server's IP address or hostname
-PORT = 12345  # Update with the server's listening port
+PORT = 8080  # Update with the server's listening port
 PACKET_SIZE = 130
 
 # Create a TCP/IP socket
